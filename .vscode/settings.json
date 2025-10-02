@@ -1,0 +1,13 @@
+{
+  "dotnet.defaultSolution": "alchemy.sln",
+  "dotnetAcquisitionExtension.existingDotnetPath": [
+    {
+      "extensionId": "ms-dotnettools.csharp",
+      "path": "/home/redshreds/dotnet"
+    },
+    {
+      "extensionId": "ms-dotnettools.csdevkit",
+      "path": "/home/redshreds/dotnet"
+    }
+  ]
+}

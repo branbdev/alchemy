@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <!-- Detects whether strings can be nullable/have a required value. We choose to code defensively, checking if required each time -->
     <Nullable>disable</Nullable>
     <!-- Reduces the amount of boilerplate templates -->
@@ -9,11 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.6" />
   </ItemGroup>
 
   <!-- <ItemGroup>
